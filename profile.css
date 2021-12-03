@@ -1,0 +1,123 @@
+html, body {
+  height: 100%;
+  width: 100%;
+  margin: 0px;
+  font-family: font-family: 'Poppins', sans-serif;
+  background-color: snow;
+  color: #001b44;
+}
+header {
+  font-size: 2em;
+  background-color: #001b44;
+  padding: 25px;
+  color: snow;
+  font-weight: bold;
+}
+footer {
+  background-color: #001b44;
+  padding: 25px;
+  color: snow;
+  text-align: center;
+  font-style: italic;
+  font-weight: normal;
+}
+a {
+  text-decoration: none;
+}
+* {
+  box-sizing: border-box;
+}
+.t1 {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+  text-align: center;
+}
+.dp {
+  margin: auto;
+  width: 400px;
+  height: 400px;
+}
+.about {
+  flex: 55%;
+  text-align: center;
+  padding: 10px;
+  color: black;
+  font-size: 1.2em;
+}
+.box {
+  border-top: 2px solid #001b44;
+  margin: 5px;
+  margin-top: 2em;
+}
+.box-name {
+  position: relative;
+  top: -1.5em;
+  left: 5px;
+  vertical-align: middle;
+  font-size: 1.2em;
+  background-color: #001b44;
+  color: snow;
+  padding: 0px 40px;
+  border-radius: 15px 15px 0px 0px;
+}
+.container {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  align-items: center;
+  margin: 10px;
+}
+.myslides {
+  border-radius: 50%;
+  border: 3px solid #e8e8e8;
+  margin: auto;
+}
+.mySlides {
+  margin: auto;
+  display: none;
+}
+.card {
+  border: 2px solid #e8e8e8;
+  border-radius: 10px;
+  text-align: center;
+  color: black;
+  margin: 10px;
+  padding: 5px;
+  width: 300px;
+  height: 370px;
+  transition: all .1s ease-in-out;
+}
+.card:hover {
+  transform: scale(1.1);
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.alert{
+  border: 2px solid #001b44;
+  padding: 5px;
+}
+.blue {
+  background: #001b44;
+  color: snow;
+  padding: 5px;
+}
+.red{
+  color: red;
+  font-style: oblique;
+}
+@media all and (min-width:800px) and (max-width:1024px) {
+  html, body {
+    font-size: 20px;
+  }
+}
+@media all and (min-width:320px) and (max-width:780px){
+  html, body {
+    font-size: 12px;
+  }
+  .card {
+    width: 250px;
+    height: 310px;
+  }
+}
